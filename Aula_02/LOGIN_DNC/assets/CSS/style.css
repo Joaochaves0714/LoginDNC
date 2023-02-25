@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&family=Poppins:wght@600&family=Raleway:wght@600&display=swap');
+
+body{
+   background-color: #1E1E1E;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0%;
+   margin: 0%;
+   }
+
+   header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 60px;
+      color: #FFFFFF;
+   }
+
+   header img{
+      margin-bottom: 80px;
+   }
+
+   form{
+      display: flex;
+      flex-direction: column;
+   }
+
+   main{
+      font-family: 'Raleway';
+      font-style: normal;
+   }
+
+   form label{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      height: 30px;
+      border: 0px;
+      margin: 0%;
+      color: #FFFFFF;
+   }
+
+   form input{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      padding: 15px 15px;
+      width: 524px;
+      left: 458px;
+      top: 520px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+   }
+
+    form input[type="submit"]{
+      background: #0C70F2;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      margin-top: 30px;
+      border-radius: 10px;
+      font-size: 16pt;
+      font-weight: bold;
+      border: 0px;
+      width: 100%;
+   } 
+
+  
